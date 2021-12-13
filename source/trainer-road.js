@@ -1,5 +1,7 @@
 var url = "https://www.trainerroad.com/api/workoutdetails/" + document.location.href.split('/').pop().split('-')[0]
 
+libId = 1801577
+
 if (libId === undefined) {
 	var libId = prompt("library", libId)
 }
